@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AvengerDAO consumer api extention</title>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-3" style="width: 450px;">
+        <h2 class="text-center">Trust level of the reciever</h2>
+        <main id="main-holder">
+            <h1 id="login-header">Receiver id:</h1>
+            
+            <form id="login-form">
+              <input type="text" name="receiver" id="username-field" class="login-form-field" placeholder="Receiver">
+              <input type="submit" value="Check" id="login-form-submit">
+            </form>
+          
+        </main>
+        
+        <div id="my-pie-chart"></div>
+        <div>
+            <h2 id="level1">Trust Level: </h2>
+            <h2 id="level"></h2>
+        </div>
+       
+        <section>
+            <h3>Vulnerabilities checked: </h3>
+        <ul class="list">
+        </ul>
+        </section>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

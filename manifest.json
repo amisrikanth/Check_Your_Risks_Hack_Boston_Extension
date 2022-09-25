@@ -1,0 +1,11 @@
+{
+    "name": "Check your risk",
+    "version": "1.0.0",
+    "description": "Avengers DAO chrome extension",
+    "manifest_version": 3,
+    "author": "Srikanth Banagadi",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Extention for risk check"
+    }
+}
